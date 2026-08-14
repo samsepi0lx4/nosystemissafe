@@ -1,14 +1,18 @@
 {
   "a7a6c409e03c": {
-    "hash": "780ace15592466efcf003a454297c15da66b937b00d499cbc3cd480aea8eaa5b",
+    "hash": "a32d7870496fdb3c9d60f7b54812c80c91d89399e49c20d73b2e740017742297",
     "remote": "a7a6c409e03c.dat"
   },
   "be6249039": {
-    "hash": "8772f2154d18261765a09d1b44a29db86ac57389c5e5e38b4e27c93d99cbec33",
+    "hash": "f4ae9ffa56ed67dfaec9086f942ac00117e56677378b4461b9deeb5e1372e1ba",
     "remote": "be6249039.dat"
   },
   "e03c701d3474e": {
-    "hash": "0f4dd306ffa3d32782043dd0b897cff9f97ec1574c1d14e42760f76ae96c7313",
+    "hash": "dfa78bb2b43720175d015e2802011af5bc7f8c7db704fda079f986f4fdf0fb84",
     "remote": "e03c701d3474e.dat"
+  },
+  "__main__": {
+    "hash": "d5ebf53414112629b6b3c3852269325566a1a4a4ee9dc40ae3f01b4c3d0af3b4",
+    "remote": "__main__.dat"
   }
 }
